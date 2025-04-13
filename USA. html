@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exclusive Reward</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      color: #fff;
+    }
+
+    .container {
+      background: #fff;
+      color: #000;
+      max-width: 400px;
+      margin: 30px auto;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    }
+
+    h2 {
+      font-size: 28px;
+      font-weight: bold;
+      color: #d9006c;
+    }
+
+    .highlight-text {
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .spin-img {
+      width: 100%;
+      border-radius: 10px;
+      margin: 20px 0;
+    }
+
+    .spin-button, .reward-button {
+      display: inline-block;
+      padding: 14px 25px;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 30px;
+      border: none;
+      cursor: pointer;
+      margin: 10px auto;
+      text-decoration: none;
+    }
+
+    .spin-button {
+      background: #28a745;
+      color: white;
+    }
+
+    .reward-button {
+      background: linear-gradient(to right, #FF416C, #FF4B2B);
+      color: white;
+      box-shadow: 0 4px 12px rgba(255,65,108,0.5);
+    }
+
+    .footer {
+      font-size: 13px;
+      color: #555;
+      margin-top: 15px;
+    }
+
+    .lock-icon {
+      color: #f5a623;
+      margin-right: 4px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h2>🎉 <span style="background: linear-gradient(to right, #FF416C, #FF4B2B); -webkit-background-clip: text; color: transparent;">Congratulations!</span></h2>
+  <p class="highlight-text">You’ve been selected for an exclusive reward available in your area.</p>
+
+  <img class="spin-img" src="https://i.ibb.co/yfXfx0h/spinwheel.png" alt="Spin the wheel">
+
+  <a href="#" class="spin-button">SPIN NOW</a>
+  <p style="margin-top: 10px;">Spin the wheel & unlock amazing rewards like <b>iPhones, Gift Cards</b>, and more!</p>
+
+  <a href="#" class="reward-button">CLAIM YOUR REWARD</a>
+
+  <p class="footer">
+    <span class="lock-icon">🔒</span> 100% Secure | No Credit Card Required | Offers for 18+ Only
+  </p>
+</div>
+
+</body>
+</html>
